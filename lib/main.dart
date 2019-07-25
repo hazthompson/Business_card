@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.teal[600],
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                       color: Colors.teal[900],
                     ),
                     title: Text(
-                      '236 999 6356',
+                      '236 999 6256',
                       style: TextStyle(color: Colors.teal, fontSize: 18.5),
                     )),
               ),
